@@ -6,12 +6,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background-color: #ffe6ec;
+    background-color: #FDE5E3;
 }
 
 header {
-    background-color: #9fbbc1;
-    color: #ffffff;
+    background-color: #AC8D92;
+    color: 1A1915;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
        /* moves nav to right*/
@@ -49,13 +49,13 @@ header {
 }
 
 a {
-    color: #ffffff;
+    color: 1A1915;
     text-decoration: none;
 }
 
 /* Added a hover effect of turning blue when hovered over. */
 .nav li a:hover {
-    color: #b62b52
+    color: #FBDAE1
     
 }
 
@@ -101,8 +101,8 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
-    background-color: #ff8dbe;
+    height: 80%;
+    background-color: #F7CCD5;
 }
 
 .benefit-lead {
@@ -157,24 +157,27 @@ p {
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 50px;
-    height: 300px;
-    background-color: #ff8dbe;
+    height: 30%;
+    max-width: 80%;
+    background-color: #FBC9D4;
     color: #1e2122;
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    background-color: #ff8dbe;
+    height: 30%;
+    max-width: 80%;
+    background-color: #FBC9D4;
     color: #1e2122;
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    background-color: #ff8dbe;
+    height: 30%;
+    max-width: 80%;
+    background-color: #FBC9D4;
     color: #1e2122;
 }
 
@@ -206,8 +209,8 @@ p {
 }
 
 .footer {
-    background-color: #9fbbc1;
-    color: #ffffff;
+    background-color: #AC8D92;
+    color: 1A1915;
     text-align: center; 
     padding: 20px;
     margin: 20px;
@@ -215,4 +218,11 @@ p {
     
 }
 
-
+/*
+#AC8D92 background color nav & foot
+#1A1915 font color
+#FDE5E3 page background color
+#FBDAE1 hover
+#FBC9D4 background of main boxes
+#F7CCD5 aside
+*/
