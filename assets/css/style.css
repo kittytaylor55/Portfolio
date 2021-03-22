@@ -50,14 +50,16 @@ header {
 }
 
 a {
+    /* link color when not visited */
     color: #4b3648;
     text-decoration: none;
 }
 
-/* Added a hover effect of turning blue when hovered over. */
+/* Added a hover effect of turning pink when hovered over. */
 .nav li a:hover {
     color: #FBDAE1  
 }
+/* Added a vidited effect of turning purple when link is visited. */
 .nav li a:visited {
     color: #745f63  
 }
@@ -77,8 +79,7 @@ p {
     margin-left: 25px;
 }
 
-/* Changed content to main */
-.main {
+main {
     width: 75%;
     display: inline-block;
     margin: 20px;
@@ -89,14 +90,15 @@ p {
 }
 
 
-.aside {
+.skills {
     margin: 20px;
     padding: 50px;
     clear: both;
     float: right;
-    width: 20%
+    width: 20%;
     height: 760px;
     background-color: #F7CCD5;
+    
 }
 
 
@@ -123,12 +125,13 @@ img {
 
 
 
-.footer {
+footer {
     background-color: #AC8D92;
-    color: 1A1915;
+    list-style-type: none;
     text-align: center; 
-    padding: 20px;
-    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
     
 }
 
