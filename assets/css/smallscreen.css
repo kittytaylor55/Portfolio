@@ -94,13 +94,11 @@ h3 {
 
 .maininfo {
 display: inline-block;
-margin-top: 20px;
-margin-right: 20px;
-Margin-left: 20px;
+margin: 20px;
 background-color: #F7CCD5;
-width: 100%;
+width: 95%;
 font-size: 20px;
-padding-top: 10px;
+padding: 10px;
 height: 40%;
 
 }
@@ -109,8 +107,19 @@ height: 40%;
     display: inline-block;
     margin: 20px;
     background-color: #F7CCD5;
-    width: 100%;
+    width: 95%;
     font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 40%; 
+}
+
+.skillsbottom {
+    display: inline-block;
+    margin: 20px;
+    background-color: #F7CCD5;
+    width: 95%;
+    font-size: 16px;
     padding-top: 10px;
     padding-bottom: 20px;
     height: 40%; 
@@ -163,21 +172,11 @@ skills {
     }
 */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 .aside {
-    padding-top: 20px;
-    padding-bottom: 5px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    align-content: center;
-    width: 100%;
-    
-    background-color: #F7CCD5;
+    display:none;
+ 
 }
+
 
 footer {
     background-color: #AC8D92;

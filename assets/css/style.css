@@ -177,6 +177,11 @@ skills {
 */
 
 
+.skillsbottom {
+    display:none;
+ 
+}
+
 footer {
     background-color: #AC8D92;
     list-style-type: none;
