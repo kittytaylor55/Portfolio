@@ -80,23 +80,23 @@ p {
 }
 
 main {
-    width: 75%;
+    width: 70%;
     display: inline-block;
     margin: 20px;
     padding-top: 20px;
-    height: 30%;
+    height: 40%;
     background-color: #F7CCD5;
     
 }
 
 
 .skills {
+    padding-top: 20px;
     margin: 20px;
-    padding: 50px;
     clear: both;
     float: right;
     width: 20%;
-    height: 760px;
+    height: 30%;
     background-color: #F7CCD5;
     
 }
@@ -131,7 +131,7 @@ footer {
     text-align: center; 
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
+   
     
 }
 
