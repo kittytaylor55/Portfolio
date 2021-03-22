@@ -5,10 +5,12 @@
     /* Changed font family to go with my asthetic */
     font-family: 'Montserrat', sans-serif;
 }
+
 body {
     background-color: #FDE5E3;
     color: #1e2122;
 }
+
 
 header {
     background-color: #AC8D92;

@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body {
-    background-color: #FDE5E3;
+    background-color: hsl(5, 41%, 16%);
     color: #1e2122;
 }
 
@@ -37,14 +37,14 @@ header {
     padding-top: 15px;
     margin-right: 5px;
     font-size: 30px;
-    /* keeps links inline instead of stacked */
-    display: inline-block;
+ 
+    
       
 }
 
 /* Changed nav li */
 .nav li {
-    display: inline-block;
+    display: center;
     /* moves the content in nav bar to right*/
     margin-left: 50px;
 }
@@ -69,18 +69,7 @@ a {
     display: inline-block;
 }
 
-.aside {
-    padding-top: 20px;
-    padding-bottom: 5px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    align-content: flex-start;
-    float: right;
-    width: 25%;
-    height: 40%;
-    background-color: #F7CCD5;
-}
+
 
 p {
     font-size: 18px;
@@ -109,7 +98,7 @@ margin-top: 20px;
 margin-right: 20px;
 Margin-left: 20px;
 background-color: #F7CCD5;
-width: 70%;
+width: 100%;
 font-size: 20px;
 padding-top: 10px;
 height: 40%;
@@ -120,7 +109,7 @@ height: 40%;
     display: inline-block;
     margin: 20px;
     background-color: #F7CCD5;
-    width: 70%;
+    width: 100%;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
@@ -174,6 +163,21 @@ skills {
     }
 */
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.aside {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    align-content: center;
+    width: 100%;
+    
+    background-color: #F7CCD5;
+}
 
 footer {
     background-color: #AC8D92;
