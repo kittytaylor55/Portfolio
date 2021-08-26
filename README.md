@@ -1,6 +1,8 @@
 # Portfolio
 Crystal Taylor's work in progress portfolio.
 
+https://kittytaylor55.github.io/Portfolio/
+
 Made a large layout of my portfolio with links in the navigatino bar that go to the proper sections of my page.
 
 <img src="https://kittytaylor55.github.io/Portfolio/assets/images/lscreentop.png" alt="screen shot of top of large page"/>
